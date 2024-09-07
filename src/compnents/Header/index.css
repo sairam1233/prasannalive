@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Nerko+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px 30px 25px 30px;
+    font-family: "roboto";
+    position: fixed;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.sp{
+    color:#ffbb00;
+}
+h1{
+    color: #292929;
+}
+h2{
+    cursor: pointer;
+    font-family: "Inconsolata";
+    color: #292929;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none !important;
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 17px;
+    color: #292929;
+    text-decoration: none !important;
+    
+}
+li:hover{
+    color: #ffbb00;
+    scale: 1.1;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
