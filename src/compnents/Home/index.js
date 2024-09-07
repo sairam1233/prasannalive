@@ -22,10 +22,10 @@ class Home extends Component{
                 <div className="mainContainer" id="home">
                     <div className="card-1">
                         <div className="cen">
-                        <img src="https://res.cloudinary.com/djbivakqj/image/upload/v1725642088/Untitled-2_aaacopy_hqcgck.png" alt="logo" className="img-l"/>
-                        <h1 className="hh1"><span className="sp">360°</span> Live Streaming</h1>
+                        <img src="https://res.cloudinary.com/djbivakqj/image/upload/v1725642088/Untitled-2_aaacopy_hqcgck.png" alt="logo" className="img-l animate__animated animate__zoomIn"/>
+                        <h1 className="hh1 animate__animated animate__slideInUp"><span className="sp">360°</span> Live Streaming</h1>
                         <a href="#live">
-                        <FaAngleDoubleDown className="animate__animated animate__slideInDown animate__infinite cl"/>
+                        <FaAngleDoubleDown className="animate__animated animate__slideInDown animate__infinite cl animate__slideInUp"/>
                         </a>
                         </div>
                     </div>
@@ -55,7 +55,8 @@ class Home extends Component{
                                 </div>
                                 </div>
                             </div>
-                            <ReactPlayer width="50%" className="vd" controls url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />
+                            <ReactPlayer  className="vd" controls url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />
+                            <ReactPlayer  className="vd1" width="350px" height="180px" controls url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />
                         </div>
                         <h1 className="h3" id="gallery"><span className="sp">G</span>allery</h1>
                         <div className="gallery-section">
@@ -97,8 +98,7 @@ class Home extends Component{
                             <a href="mailto:vinaysairam1233@gmail.com"><IoMdMail className="icon1"/></a>
                             <a href="tel:7382336310"><MdPhoneInTalk className="icon1"/></a>
                             </div>
-                            <p>Copyrights <span className="sp">©</span> 2024 - 2030 All Rights Reserved by Digital Studios</p>
-                            <p>Video Provided by Prasanna Technologies</p>
+                            <p className="pp">Copyrights <span className="sp">©</span> 2024 - 2030 All Rights Reserved by Digital Studios Video Provided by Prasanna Technologies</p>
                         </div>
                     </section>
                 </div>

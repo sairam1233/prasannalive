@@ -21,7 +21,7 @@ h2{
     font-family: "Inconsolata";
     color: #292929;
 }
-ul{
+.ul{
     display: flex;
     gap: 40px;
     align-items: center;
@@ -48,4 +48,28 @@ li:hover{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+.ul1{
+    display: none;
+}
+
+
+@media (max-width:800px){
+    .ul{
+        display: none;
+    }
+    .ul1{
+        display:flex;
+        align-items: center;
+        gap: 30px;
+        list-style-type: none;
+    }
+    .h11{
+        display: none;
+    }
+    nav{
+        align-items:center;
+        justify-content: center;
+        position: fixed;
+    }
 }
